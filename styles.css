@@ -1,0 +1,99 @@
+* {
+  margin: auto 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(30, 26, 26);
+  color: aliceblue;
+}
+/* STYLES FOR THE TITLE */
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title h1 {
+  padding: 50px;
+  font-size: 3rem;
+}
+
+/* STYLES FOR THE INPUT NUMBERS */
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.numbers-input {
+  max-width: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 10px;
+  border: none;
+}
+
+.numbers-input legend {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.numbers-input .bracket,
+.output-container .bracket {
+  font-size: 4.5rem;
+  margin: 50px;
+}
+
+.numbers-input .comma,
+.output-container .output-array .comma {
+  font-size: 3rem;
+  margin: 20px;
+}
+
+.numbers-input .values-dropdown {
+  background-color: white;
+  color: black;
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 1.9rem;
+}
+
+form .sort {
+  padding: 20px;
+  background-color: white;
+  color: black;
+  border-radius: 50px;
+  font-size: 1rem;
+  border: none;
+  font-weight: 600;
+}
+
+form .sort:hover {
+  cursor: pointer;
+  border: 3px solid red;
+}
+
+/* STYLES FOR THE OUTPUT NUMBERS */
+
+.output-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 70px;
+}
+
+.output-container h2 {
+  font-size: 2rem;
+}
+
+.output-container .output-array {
+  display: flex;
+  align-items: center;
+}
+
+.output-container .output-array .output-value {
+  font-size: 2.5rem;
+  padding: 8px;
+}
